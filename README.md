@@ -21,7 +21,7 @@ Visual Studio Code extension to quickly generate docstrings for python functions
 * Google
 * Numpy
 * Sphinx
-* PEP0257 (coming soon)
+* PEP0257
 
 ## Usage
 Cursor must be on the line directly below the definition to generate full auto-populated docstring

@@ -4,10 +4,12 @@ export function getTemplate(docstringFormat: string): string {
     switch (docstringFormat) {
         case "google":
             return getTemplateFile("google.mustache");
-        case "sphinx":
-            return getTemplateFile("sphinx.mustache");
         case "numpy":
             return getTemplateFile("numpy.mustache");
+        case "pep257":
+            return getTemplateFile("pep257.mustache");
+        case "sphinx":
+            return getTemplateFile("sphinx.mustache");
         default:
             return getTemplateFile("default.mustache");
     }

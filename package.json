@@ -68,6 +68,7 @@
                         "default",
                         "google",
                         "sphinx",
+                        "pep267",
                         "numpy"
                     ],
                     "description": "Which docstring format to use."
